@@ -19,7 +19,7 @@ public:
                 if(i == mapp.find(target - nums[i])->second) continue;
                 return {i, mapp.find(target - nums[i])->second};
             }
-        }
+        } 
         return {-1, -1};
     }
 };
